@@ -1,15 +1,63 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<title><%= htmlWebpackPlugin.options.title %></title>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+				<section>
+					<h2>Webpack</h2>
+					<h4>Kennisdeling Infi</h4>
+					<p>
+						Peer Fisser
+					</p>
+					<div>
+						<img width="200" id="infi-logo" />
+						<img width="200" id="webpack-logo" />
+					</div>
+				</section>
+
+				<section>
+					<img id="webpack-image" />
+					<aside class="notes">
+						At its core, webpack is a static module bundler for modern JavaScript applications.
+					</aside>
+				</section>
+
+				<section>
+					<h2>Tools</h2>
+					<p>
+
+					</p>
+					<ul>
+						<li class="fragment">webpack</li>
+						<li class="fragment">webpack-cli</li>
+						<li class="fragment">webpack-dev-server</li>
+					</ul>
+					<pre class="fragment">
+						<code style="text-align: center">npm i -D webpack webpack-cli webpack-dev-server</code>
+					</pre>
+				</section>
+
+				<section>
+					<p>Andere frontend clis zoals</p>
+					<p>
+						<span class="fragment">Angular CLI</span>
+						<span class="fragment">, React CLI</span>
+						<span class="fragment">, Vue CLI</span>
+					</p>
+					<p><span class="fragment"> gebruiken allemaal webpack!</span></p>
+				</section>
+
 			</div>
 		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="lib/js/classList.js"></script>
+		<script src="lib/js/html5shiv.js"></script>
 		<script src="js/reveal.js"></script>
 	</body>
 </html>
