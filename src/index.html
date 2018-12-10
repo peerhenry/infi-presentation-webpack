@@ -53,6 +53,7 @@
 					</pre>
 
 					<aside class="notes">
+						Webpack is kern
 					</aside>
 				</section>
 
@@ -63,7 +64,10 @@
 						<span class="fragment">, React CLI</span>
 						<span class="fragment">, Vue CLI</span>
 					</p>
-					<p><span class="fragment"> gebruiken allemaal webpack!</span></p>
+					<p><span class="fragment">gebruiken allemaal webpack!</span></p>
+					<aside class="notes">
+						Als je geen framework wil grijp je naar webpack
+					</aside>
 				</section>
 
 				<section>
@@ -75,7 +79,7 @@
 						<li class="fragment">Plugins</li>
 					</ul>
 					<aside class="notes">
-						<p>Als je aan de slag gaat met webpack dan is de configuratie de hoofdrolspeler.</p>
+						<p>Als je aan de slag gaat met webpack dan is de hoofdrolspeler het configuratie bestand.</p>
 						<p>application entry point</p>
 						<p>output bestand</p>
 						<p>loaders om te transpileren</p>
@@ -165,15 +169,46 @@
 				</section>
 
 				<section>
-					<h3>Nasty bits</h3>
+					<h3>commands</h3>
+					<p class="fragment" data-fragment-index="1">
+						<span>Build: </span>
+						<pre class="fragment" data-fragment-index="1" style="color:#dcdcdc; background: #3f3f3f; padding: 5px">webpack</pre>
+					</p>
+					<p class="fragment" data-fragment-index="2">
+						<span>Build with specific config: </span>
+						<pre class="fragment" data-fragment-index="2" style="color:#dcdcdc; background: #3f3f3f; padding: 5px">webpack --config other.config.js</pre>
+					</p>
+					<p class="fragment" data-fragment-index="3">
+						<span>Run dev server: </span>
+						<pre class="fragment" data-fragment-index="3" style="color:#dcdcdc; background: #3f3f3f; padding: 5px">webpack-dev-server</pre>
+					</p>
+				</section>
+
+				<section>
+					<p class="fragment">Getting started, hoe werkt webpack nou ook alweer...</p>
+					<ul>
+						<li>
+							<a href="https://generatewebpackconfig.netlify.com/">generatewebpackconfig (netlify)</a>
+						</li>
+						<li>
+							<a href="https://webpack.jakoblind.no/">webpack config tool (jakoblind)</a>
+						</li>
+						<li>
+							<a href="https://doug2k1.github.io/webpack-generator/">Webpack Config Generator (doug2k1)</a>
+						</li>
+						<li>
+							<a href="https://ph-webpack-config-generator.herokuapp.com/">Webpack Config Generator (PeerHenry)</a>
+						</li>
+					</ul>
           <ul>
-            <li class="fragment">Getting started is niet super relaxed...</li>
             <li class="fragment">Grote projecten hebben typisch meerdere (grote) webpack configuraties</li>
           </ul>
 				</section>
 
 				<section>
-					<h3>loaders</h3>
+					<p class="fragment">Grote projecten...</p>
+					<p class="fragment">meerdere grote webpack config bestanden</p>
+					<p class="fragment">...niet relaxed</p>
 				</section>
 
 			</div>
